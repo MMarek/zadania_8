@@ -21,3 +21,7 @@ Guziki - po kliknięciu zmieniają w sposób płynny swój wygląd
 #
 ### -zad.5
 Zombie - ruszający się potwór :)
+
+#
+### -zad.6
+Podróże międzygwiezdne - animacja pokazująca, lot między planetami sokoła milenium :)
