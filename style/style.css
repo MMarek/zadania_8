@@ -49,7 +49,7 @@ li {
         width: 1000px;
         background: red;
     }
-    
+
 }
 
 
@@ -364,4 +364,72 @@ body {
     position: relative;
     top: 10%;
     left: 10%;
+}
+
+/*task04 hover-animation*/
+
+body {
+    margin:0;
+    height: 100vh;
+    display: flex;
+}
+.test {
+    height:100vh;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    width:33.3333%;
+    align-items: center;
+    flex-direction: column;
+}
+.test:nth-of-type(2) {
+    background: #fafafa;
+}
+.test:nth-of-type(3) {
+    background: #eee;
+}
+
+
+.red-button {
+    padding: 20px 40px;
+    color: crimson;
+    border-radius: 40px;
+    border:0;
+    margin:10px;
+    text-transform: uppercase;
+    background: none;
+    box-shadow: inset 0 0 0 3px crimson;
+    cursor: pointer;
+}
+.red-button:hover {
+
+}
+
+
+.blue-button {
+    padding: 20px 40px;
+    background: dodgerblue;
+    border-radius: 5px;
+    border:0;
+    color:#fff;
+    margin:10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.blue-button:hover {
+
+}
+
+
+.green-button {
+    padding: 20px 40px;
+    background: #2FEB73;
+    border:0;
+    color:#fff;
+    margin:10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.green-button:hover {
+
 }
