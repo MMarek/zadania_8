@@ -13,3 +13,11 @@ Cykliczna animacja - zwykła belka rozszerzająca się i zmieniająca kolor
 #
 ### -zad.3
 Miś - poruszający łapką, oraz okiem :)
+
+#
+### -zad.4
+Guziki - po kliknięciu zmieniają w sposób płynny swój wygląd
+
+#
+### -zad.5
+Zombie - ruszający się potwór :)
