@@ -1,4 +1,4 @@
-
+/*task01*/
 h1 {
     text-align: center;
 }
@@ -31,6 +31,9 @@ li {
 }
 
 
+
+
+
 /*task02*/
 .violet-bell {
     width: 80px;
@@ -53,14 +56,16 @@ li {
 }
 
 
-/*task03 bear*/
 
+
+
+/*task03 bear*/
 body {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 500vh;
     margin: 0;
     background: linear-gradient(180deg, rgba(125,202,255,1) 0%, rgba(255,255,255,1) 30%, rgb(255, 255, 194) 54%, rgb(62, 192, 101) 56%, rgba(112,242,35,1) 100%);
 }
@@ -367,8 +372,11 @@ body {
     left: 10%;
 }
 
-/*task04 hover-animation*/
 
+
+
+
+/*task04 hover-animation*/
 body {
     margin:0;
     height: 100vh;
@@ -431,5 +439,30 @@ body {
     cursor: pointer;
 }
 .green-button:hover {
+
+}
+
+
+
+
+
+/*task05 zombie*/
+body {
+    margin:0;
+}
+
+.zombie {
+
+}
+
+.board {
+    height:100vh;
+    min-height: 800px;
+    position: relative;
+    overflow: hidden;
+    background: rgb(0,0,0);
+    /*background-image: url(../images/board-bg.jpg);*/
+    background-size: cover;
+    background-position: center bottom;
 
 }
