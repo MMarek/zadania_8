@@ -1,4 +1,4 @@
-# Zestaw zadań 08 :)
+# Zestaw zadań 08 :) (tutaj zaznajomić się można już z animacjami)
 
 ### -zad.1
 Lista zakupów, z trzema guzikami. 
