@@ -9,9 +9,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 500vh;
+    min-height: 200vh;
     margin: 0;
-    background: linear-gradient(180deg, rgba(125, 202, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgb(255, 255, 194) 54%, rgb(62, 192, 101) 56%, rgba(112, 242, 35, 1) 100%);
+    background: linear-gradient(180deg, rgba(125, 202, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgb(255, 255, 194) 54%);
 }
 
 /*.navbar{*/
@@ -425,15 +425,10 @@ li {
 }
 
 
-/*task04 hover-animation*/
-/*body {*/
-/*    margin: 0;*/
-/*    height: 100vh;*/
-/*    display: flex;*/
-/*}*/
+
 
 .test {
-    height: 100vh;
+    height: 20vh;
     display: flex;
     box-sizing: border-box;
     justify-content: center;
@@ -442,13 +437,13 @@ li {
     flex-direction: column;
 }
 
-.test:nth-of-type(2) {
-    background: #fafafa;
-}
-
-.test:nth-of-type(3) {
-    background: #eee;
-}
+/*.test:nth-of-type(2) {*/
+/*    background: #fafafa;*/
+/*}*/
+/**/
+/*.test:nth-of-type(3) {*/
+/*    background: #eee;*/
+/*}*/
 
 
 .red-button {
@@ -464,7 +459,7 @@ li {
 }
 
 .red-button:hover {
-    padding: 40px 60px;
+    padding: 60px 60px;
     color: pink;
     border-radius: 60px;
     border: 10px;
@@ -500,7 +495,6 @@ li {
     background: green;
     border: 0;
     color: #fff;
-    margin: 10px;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -515,118 +509,128 @@ li {
 
 
 /*task05 zombie*/
-body {
-    margin: 0;
-}
+/*body {*/
+/*    margin: 0;*/
+/*}*/
 
 .zombie {
-
+    width: 100%;
+    height: 310px;
+    background: url("../image/walkingdead.png");
+    animation: move 1s steps(10) infinite;
+    animation-direction: alternate;
 }
 
-.board {
-    height: 100vh;
-    min-height: 800px;
-    position: relative;
-    overflow: hidden;
-    background: rgb(0, 0, 0);
-    /*background-image: url(../images/board-bg.jpg);*/
-    background-size: cover;
-    background-position: center bottom;
-
-}
-
-
-/*task06 planets*/
-.container {
-    width: 100vw;
-    height: 100vh;
-    background: rgb(18, 43, 71);
-    background: /*url(../images/stars.png),*/ linear-gradient(180deg, rgba(18, 43, 71, 1) 0%, rgba(18, 20, 37, 1) 51%, rgba(46, 25, 54, 1) 100%);
-    position: relative;
-    background-size: 200px 200px, cover;
-    min-width: 1200px;
-    min-height: 800px;
-}
-
-.rocket {
-    width: 89px;
-    height: 150px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 2;
-}
-
-.rocket span {
-    display: block;
-    /*background: url(../images/rocket.png);*/
-    width: 89px;
-    height: 150px;
-    position: relative;
-    z-index: 1;
-}
-
-.rocket.fly::after {
-    content: '';
-    /*background: url(../images/fire.png);*/
-    background-size: cover;
-    width: 42px;
-    height: 67px;
-    position: absolute;
-    left: 50%;
-    top: 87%;
-    transform: translate(-50%, 0);
-    animation: fire 0.1s 0s infinite alternate;
-    transform-origin: 50% 0;
-    z-index: 0;
-}
-
-@keyframes fire {
-    50% {
-        transform: translate(-50%, 0) scale(0.9, 1);
-    }
+@keyframes move {
     100% {
-        transform: translate(-50%, 0) scale(1, 0.9);
+        background-position: -1900px;
     }
 }
 
-.planet1 {
-    position: absolute;
-    /*background: url(../images/planet1.png);*/
-    width: 228px;
-    height: 229px;
-    left: 150px;
-    top: 100px;
-    border-radius: 50%;
-    box-shadow: 0 0 30px rgba(176, 22, 4, 0.4), 0 0 100px rgba(249, 149, 34, 0.2);
-}
+/*.board {*/
+/*    height: 100vh;*/
+/*    min-height: 800px;*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    background: rgb(0, 0, 0);*/
+/*    background-image: url(../image/walkingdead.png);*/
+/*    background-size: cover;*/
+/*    background-position: center bottom;*/
+/**/
+/*}*/
 
-.planet2 {
-    position: absolute;
-    /*background: url(../images/planet2.png);*/
-    width: 201px;
-    height: 201px;
-    left: calc(100% - 350px);
-    top: 150px;
-}
 
-.planet3 {
-    position: absolute;
-    /*background: url(../images/planet3.png);*/
-    width: 257px;
-    height: 246px;
-    left: calc(100% - 460px);
-    top: calc(100% - 350px);
+/*!*task06 planets*!*/
+/*.container {*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background: rgb(18, 43, 71);*/
+/*    background: !*url(../images/stars.png),*! linear-gradient(180deg, rgba(18, 43, 71, 1) 0%, rgba(18, 20, 37, 1) 51%, rgba(46, 25, 54, 1) 100%);*/
+/*    position: relative;*/
+/*    background-size: 200px 200px, cover;*/
+/*    min-width: 1200px;*/
+/*    min-height: 800px;*/
+/*}*/
 
-}
+/*.rocket {*/
+/*    width: 89px;*/
+/*    height: 150px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    z-index: 2;*/
+/*}*/
 
-.planet4 {
-    position: absolute;
-    /*background: url(../images/planet4.png);*/
-    width: 225px;
-    height: 225px;
-    left: 200px;
-    top: calc(100% - 300px);
-    border-radius: 50%;
-    box-shadow: 0 0 50px rgba(247, 215, 76, 0.2);
-}
+/*.rocket span {*/
+/*    display: block;*/
+/*    !*background: url(../images/rocket.png);*!*/
+/*    width: 89px;*/
+/*    height: 150px;*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.rocket.fly::after {*/
+/*    content: '';*/
+/*    !*background: url(../images/fire.png);*!*/
+/*    background-size: cover;*/
+/*    width: 42px;*/
+/*    height: 67px;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top: 87%;*/
+/*    transform: translate(-50%, 0);*/
+/*    animation: fire 0.1s 0s infinite alternate;*/
+/*    transform-origin: 50% 0;*/
+/*    z-index: 0;*/
+/*}*/
+
+/*@keyframes fire {*/
+/*    50% {*/
+/*        transform: translate(-50%, 0) scale(0.9, 1);*/
+/*    }*/
+/*    100% {*/
+/*        transform: translate(-50%, 0) scale(1, 0.9);*/
+/*    }*/
+/*}*/
+
+/*.planet1 {*/
+/*    position: absolute;*/
+/*    !*background: url(../images/planet1.png);*!*/
+/*    width: 228px;*/
+/*    height: 229px;*/
+/*    left: 150px;*/
+/*    top: 100px;*/
+/*    border-radius: 50%;*/
+/*    box-shadow: 0 0 30px rgba(176, 22, 4, 0.4), 0 0 100px rgba(249, 149, 34, 0.2);*/
+/*}*/
+
+/*.planet2 {*/
+/*    position: absolute;*/
+/*    !*background: url(../images/planet2.png);*!*/
+/*    width: 201px;*/
+/*    height: 201px;*/
+/*    left: calc(100% - 350px);*/
+/*    top: 150px;*/
+/*}*/
+
+/*.planet3 {*/
+/*    position: absolute;*/
+/*    !*background: url(../images/planet3.png);*!*/
+/*    width: 257px;*/
+/*    height: 246px;*/
+/*    left: calc(100% - 460px);*/
+/*    top: calc(100% - 350px);*/
+
+/*}*/
+
+/*.planet4 {*/
+/*    position: absolute;*/
+/*    !*background: url(../images/planet4.png);*!*/
+/*    width: 225px;*/
+/*    height: 225px;*/
+/*    left: 200px;*/
+/*    top: calc(100% - 300px);*/
+/*    border-radius: 50%;*/
+/*    box-shadow: 0 0 50px rgba(247, 215, 76, 0.2);*/
+/*}*/
