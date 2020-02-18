@@ -426,11 +426,11 @@ li {
 
 
 /*task04 hover-animation*/
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-}
+/*body {*/
+/*    margin: 0;*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*}*/
 
 .test {
     height: 100vh;
@@ -453,7 +453,7 @@ body {
 
 .red-button {
     padding: 20px 40px;
-    color: crimson;
+    color: red;
     border-radius: 40px;
     border: 0;
     margin: 10px;
@@ -464,12 +464,19 @@ body {
 }
 
 .red-button:hover {
+    padding: 40px 60px;
+    color: pink;
+    border-radius: 60px;
+    border: 10px;
+    margin: 20px;
+    text-transform: lowercase;
+    box-shadow: inset 2px 2px 2px 6px green;
 }
 
 
 .blue-button {
     padding: 20px 40px;
-    background: dodgerblue;
+    background: blue;
     border-radius: 5px;
     border: 0;
     color: #fff;
@@ -479,13 +486,18 @@ body {
 }
 
 .blue-button:hover {
-
+    padding: 60px 5px;
+    background: blueviolet;
+    border-radius: 20px;
+    border: 80px;
+    color: black;
+    margin: 50px;
 }
 
 
 .green-button {
     padding: 20px 40px;
-    background: #2FEB73;
+    background: green;
     border: 0;
     color: #fff;
     margin: 10px;
@@ -494,7 +506,11 @@ body {
 }
 
 .green-button:hover {
-
+    padding: 120px 140px;
+    background: gold;
+    border: 20px;
+    color: #fff;
+    margin: 100px;
 }
 
 
