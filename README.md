@@ -20,8 +20,14 @@ Guziki - po kliknięciu zmieniają w sposób płynny swój wygląd
 
 #
 ### -zad.5
-Zombie - ruszający się potwór :)
+Zombie - ruszający się potwór na tle cmentarza :)
 
 #
 ### -zad.6
-Podróże międzygwiezdne - animacja pokazująca, lot między planetami sokoła milenium :)
+Podróże międzygwiezdne - animacja pokazująca, lot rakiety między planetami :)
+
+#
+### -zad.7
+```JavaScript
+Spinner - Loading... :)
+```
