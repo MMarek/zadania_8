@@ -31,3 +31,6 @@ Podróże międzygwiezdne - animacja pokazująca, lot rakiety między planetami 
 ```JavaScript
 Spinner - Loading... :)
 ```
+
+#
+Całość zobaczyć można na: https://mmarek.github.io/zadania_8/index.html
