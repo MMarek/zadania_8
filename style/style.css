@@ -519,6 +519,7 @@ li {
     background: url("../image/walkingdead.png");
     animation: move 1s steps(10) infinite;
     animation-direction: alternate;
+    margin-top: 690px;
 }
 
 @keyframes move {
@@ -527,17 +528,19 @@ li {
     }
 }
 
-/*.board {*/
-/*    height: 100vh;*/
-/*    min-height: 800px;*/
-/*    position: relative;*/
-/*    overflow: hidden;*/
-/*    background: rgb(0, 0, 0);*/
-/*    background-image: url(../image/walkingdead.png);*/
-/*    background-size: cover;*/
-/*    background-position: center bottom;*/
-/**/
-/*}*/
+.board {
+    /*height: 100vh;*/
+    /*min-height: 800px;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    width: 100%;
+    height: 1000px;
+    background: url("../image/board-bg.jpg");
+    /*background: rgb(0, 0, 0);*/
+    /*background-image: url();*/
+    /*background-size: cover;*/
+    /*background-position: center bottom;*/
+}
 
 
 /*!*task06 planets*!*/
