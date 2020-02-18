@@ -12,7 +12,7 @@ Cykliczna animacja - zwykła belka rozszerzająca się i zmieniająca kolor
 
 #
 ### -zad.3
-Miś - poruszający łapką, oraz okiem :)
+Miś - poruszający łapkami, oraz oczami :)
 
 #
 ### -zad.4
